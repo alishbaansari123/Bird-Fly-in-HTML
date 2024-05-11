@@ -1,0 +1,41 @@
+/* Normal styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(asset/background\ img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+}
+
+img {
+    height: 6rem;
+    width: 6rem;
+}
+
+marquee {
+    cursor: url(asset/cursor.png), text;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    /* Styles for screens with a maximum width of 768px */
+    img {
+        height: 4rem;
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for screens with a maximum width of 480px */
+    img {
+        height: 3rem;
+        width: 3rem;
+    }
+}
